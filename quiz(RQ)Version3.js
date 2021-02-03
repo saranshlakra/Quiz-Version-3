@@ -1,3 +1,4 @@
+// Quiz version 3
 function Question(question, answer, correctAnswer) {
   this.question = question;
   this.answer = answer;
@@ -77,4 +78,4 @@ if (userAns === "exit") {
   alert("You can check your total score in now.");
 }
 
-console.log(`Your Score is: ${returnedScore}`);
+console.log(`Your Score is: ${returnedScore} / ${que.length}`);
